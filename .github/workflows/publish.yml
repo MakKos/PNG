@@ -23,8 +23,8 @@ jobs:
         uses: codio/codio-assignment-publish-action@master
         with:
           # Use the ID's from the secrets below
-          client-id: ${{ secrets.CODIO_PRODUCTION_CLIENT_ID }}
-          secret-id: ${{ secrets.CODIO_PRODUCTION_SECRET_ID }}
+          client-id: ${{ secrets.CLIENT_ID }}
+          secret-id: ${{ secrets.SECRET_ID }}
           dir: ./
           course-id: 5fac0afdde6877ca403684635196227b
           assignment-id: 64e4edf56cca49522cfe4340a43e1f41
